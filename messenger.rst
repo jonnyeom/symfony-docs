@@ -896,9 +896,9 @@ properties in the ``reset()`` method.
 If you don't want to reset the container, add the ``--no-reset`` option when
 running the ``messenger:consume`` command.
 
-.. deprecated:: 6.1
+.. deprecated:: 6.0
 
-    In Symfony versions previous to 6.1, the service container didn't reset
+    In Symfony versions previous to 6.0, the service container didn't reset
     automatically between messages and you had to set the
     ``framework.messenger.reset_on_message`` option to ``true``.
 
